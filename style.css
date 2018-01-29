@@ -7,7 +7,7 @@ body{
     line-height: 34px;
     font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
     color: #777;
-    background: url('../images/concrete_seamless.png');
+    background:rgb(158, 158, 158);
 }
 
 .container{
@@ -149,7 +149,14 @@ h3, .sidebar, h2{
     width: 50px;
 }
 
-
+footer{
+    background: #666;
+    color: #fff;
+    padding: 30px 0;
+    clear: both;
+    border-top: 8px solid #4aaaa5;
+    color: #ccd;
+}
 
 .work{
     width: 274px;
@@ -226,3 +233,120 @@ input[type=submit]{
     cursor: pointer;
     
 }
+
+@media screen and (max-width: 980px) {
+    body{
+        background:rgb(158, 158, 158);
+    }
+    .container{
+        width: 100%;
+       
+    }
+    #main-container{
+        width: 100%;
+    }
+    .sidebar{
+        width: 100%;
+   
+    }
+
+    #GradPic{
+        height: 350px;
+        width: 500px;
+        text-align: center;
+        float: none;
+        max-width: 600px;
+    }
+    .work{
+        float: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body{
+        background:rgb(158, 158, 158);
+    }
+    .container{
+        width: 100%;
+        width: 700px;
+       
+    }
+    #main-container{
+        width: 100%;
+    }
+    .sidebar{
+        width: 100%;
+        float: none;
+        max-width: 768px;
+        margin-top: 1000px;
+       
+    }
+
+    #GradPic{
+        height: 350px;
+        width: 500px;
+        text-align: center;
+        float: none;
+        max-width: 600px;
+    }
+
+    .word{
+        float: left;
+        overflow: auto;
+        position: relative;
+    }
+
+    #PortSide{
+        margin-top: 1700px;
+    }
+
+    #contside{
+        margin-top: 620px;
+    }
+
+    #gta{
+        width: 250px;
+        height: 250px;
+        width: 100%;
+        border: 0 none;
+        opacity: .8;
+        clear: both;
+        float: left;
+    }
+
+    @media screen and (max-width: 640px){
+        nav{
+            float: left;
+        }
+
+        #logo{
+            width: 640px;
+            width: 100%;
+            float: none;
+            text-align: center;
+        }
+
+        nav a{
+           width: 640px;
+           width: 100%;
+           background: #fff;
+           float: left;
+           
+        }
+
+        #masthead{
+            background: #4aaaa5;
+            margin: 0 0 30px;
+            z-index: 99;
+            color: #fff;
+            overflow: auto;
+            border-bottom: 2px solid #ccc;
+            position: fixed;
+            width: 100%;
+            
+        }
+
+        .container{
+            clear: none;
+        }
+    }
