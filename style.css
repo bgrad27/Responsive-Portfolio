@@ -317,6 +317,7 @@ input[type=submit]{
     @media screen and (max-width: 640px){
         nav{
             float: left;
+            line-height: 15px;
         }
 
         #logo{
@@ -330,12 +331,12 @@ input[type=submit]{
         }
 
         nav a{
-           width: 640px;
-           width: 100%;
+
+           width: 25%;
            background: #fff;
            color: #999;
            text-decoration: none;
-           margin-left: 15px;
+           margin-left: 17px;
            display: inline-block;           
            
         }
@@ -356,4 +357,18 @@ input[type=submit]{
         .container{
             clear: none;
         }
+
+        #about{
+            float: left;
+        }
+
+        #Portfolio{
+           text-align: center;
+        }
+
+        #Contact{
+            text-align: right;
+        }
     }
+
+    
